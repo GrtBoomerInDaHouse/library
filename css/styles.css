@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+    width: 100%;
+    height: 100vh;
+    min-height:700px;
+    background-color: red;
+}
+
+
+
+
+/* ---------------------FORM---------------------- */
+
+
+.form-container{
+    background: rgba(12, 12, 12, 0.5);
+    width: 100%;
+    height: 100vh;
+    position:fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 60%;
+    background-color: red;
+    min-width: 300px;
+    min-height: 400px;
+}
+
+
+
+.form-h1{
+    margin-top: 10px;
+    color:white;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+    justify-content: flex-start;
+    align-items: center;
+   
+   
+
+}
+
+.input{
+    
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    
+}
+
+
+input{
+    border:none;
+    outline: none;
+    width:80%;
+    height: 50%;
+    padding-left: 10px;
+    font-size: 1.3rem;
+}
+
+/* -------------------------FORM-BUTTONS---------------------------- */
+
+
+.form-buttons{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+
+.add, .cancel{
+    height: 100%;
+    padding: 0 50px 0 50px;
+    margin: 0 10px 5px 10px;
+}
+
+.cancel{
+   
+    padding: 0 40px 0 40px;
+    
+}
+/* ----------------------------------------------------------- */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+    overflow: scroll;    
+    width: 90%;
+    height: 90%;
+
+
+    background-color: black;
+}
+
+
+.main::-webkit-scrollbar{
+        display: none;
+}
+.cell{
+    background-color: blue;
+    height: 40%;
+    width: 20%;
+    min-width: 285px;
+    margin: 50px 0 0 70px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    color:white;
+
+}
+
+
+
+.div2{
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.div3{
+    background-color: red;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+img{
+    width: auto;
+    height: 70%;
+}
+
+.div4{
+    background-color: lawngreen;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.read-btn{
+    height: 100%;
+    padding: 0 50px 0 50px;
+}
+
+.edit-btn{
+    height: 100%;
+    padding: 0 60px 0 60px;
+}
+
+
+
+.cell-btn{
+    height: 100%;
+    width: 15%;
+    padding: 10px;
+   font-size: 2rem;
+   align-self: flex-end;
+   width: 15%;
+   height: 15%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+
+
+
+
+/* .new-book-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:300px;
+    height: 300px;
+    background-color: red;
+    position: fixed;
+} */
