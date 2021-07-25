@@ -1,100 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="main.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
     <title>Library</title>
-</head>
+    <link rel="icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Coda+Caption:wght@800&family=Maven+Pro&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="header">
+
+        <img class="header-img" src="images/h-icon.png" alt="">
+        <h1 class='header-h1'>InLib</h1>
+
+      </div>
 
 
 
-<body>
+      <div class="main">
+
+
+        <div class="cell add-book-div">
 
 
 
-    <div class='container'>
+          <button class="add-book-button">
+          <p class="plus">+</p>  
+          </button>
 
-       <div class="header">
 
-        <h1> Library </h1>
-        
-           
-        
         </div>
-      
 
-        <div class='main'>
 
-          
 
-            <div class='cell button'>
-                <button class="add-book">New Book</button>
+      </div>
+
+      <div class="footer">&copy; 2021 wierdSpelling Inc.</div>
+
+      <div class="form-container">
+        <div class="form">
+          <h1 class="form-h1">Add a Book</h1>
+
+          <div class="form-inputs">
+            <div class="title input">
+              <input
+                id="1"
+                name="title"
+                type="text"
+                placeholder="Title"
+                autocomplete="off"
+                spellcheck="false"
+              />
+              <label name="1" for="1">Characters. Keep it at 0-20, please</label>
             </div>
-          
-          
-         
+            <div class="author input">
+              <input
+                id="2"
+                name="author"
+                type="text"
+                placeholder="Author"
+                autocomplete="off"
+                spellcheck="false"
+              />
+              <label name="2" for="2">Has to be a name without numbers</label>
+            </div>
+            <div class="pages input">
+              <input
+                id="3"
+                name="pages"
+                type="text"
+                placeholder="Pages completed"
+                autocomplete="off"
+                spellcheck="false"
+              />
+              <label name="3" for="3">Has to be a number at 0 - 999</label>
+            </div>
+          </div>
 
+          <div class="form-buttons">
+            <button class="cancel">Cancel</button>
+            <button class="add">Add</button>
+          </div>
         </div>
-
-
-
-       <div class='footer'> &copy; 2021 wierdSpelling Inc.</div>
-
-
-
-       <div class='form-container'>
-
-          
-        <div class='form'>
-            <h1 class="form-h1">Add a Book</h1>
-
-            <div class="form-inputs">
-                
-                <div class="title input">
-                    
-                     <input name='title' type="text" placeholder="Title" autocomplete="off" />
-                   
-                </div>
-              <div class='author input'>
-
-                
-                <input name='author' type="text" placeholder="Author" autocomplete="off"/>
-              </div>
-              <div class='pages input'>
-               
-                <input name='pages' type="text" placeholder="How many pages you read" autocomplete="off" />
-
-              </div>
-               
-               
-
-            </div>
-   
-            <div class='form-buttons'>
-                <button class='cancel'>Cancel</button>
-                <button class='add'>Add</button>
-                
-
-            </div>
-
+      </div>
     </div>
-
-    </div>
-
-
-    </div>
-
-   
-
-
-
-
-</body>
-
-
-
-
+  </body>
 </html>
